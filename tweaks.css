@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Sen's MelonLand Forum tweaks
 @namespace      github.com/openstyles/stylus
-@version        0.1.1
+@version        0.1.2
 @description    This style modifies the default MelonLand forum stylesheet to make the forum more accessible and readable. Mainly, it increases color contrast and implements a light mode.
 @author         Sen Choi
 ==/UserStyle== */
@@ -32,7 +32,7 @@
     box-shadow: inset 0 0 20px gray;
   }
 
-  .creator .content,
+  .creator .content, .windowbg .content,
   .description,
   #main_admsection .windowbg2 .content,
   #profileview,
