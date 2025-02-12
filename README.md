@@ -8,3 +8,4 @@ While the css file is short enough that you could peruse it yourself, it's not v
 * Pixelated image rendering is disabled
 * The "MelonLand Forum" logo has a background image for color contrast
 * Margins added around quote boxes
+* Increasing padding around some elements
