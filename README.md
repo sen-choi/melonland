@@ -1,5 +1,5 @@
-# melonland
-This userstyle modifies the default MelonLand forum stylesheet to improve accessibility and readability. It increases color contrast & implements a light mode.
+# Melonland
+This userstyle modifies the default MelonLand forum stylesheet to improve accessibility and readability. It increases color contrast & implements a light mode. It is intended to be used on Firefox with the [Stylus extension](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/), and I have not tested it outside of Firefox. It is not intended to be used on mobile.
 
 While the css file is short enough that you could peruse it yourself, it's not very readable. Here is a summary of the changes made:
 * Body backgrounds and form backgrounds are light gray
@@ -12,3 +12,5 @@ While the css file is short enough that you could peruse it yourself, it's not v
 * Parts of the background have been removed to be less distracting
 * Added a white outline around a black element on a purple background
 * Clickable images no longer turn unreadably white on hover
+
+The userstyles.world page for this userstyle is https://userstyles.world/style/20838/sens-melonland-forum-tweaks-v0-1-4
