@@ -11,3 +11,4 @@ While the css file is short enough that you could peruse it yourself, it's not v
 * Increasing padding around some elements
 * Parts of the background have been removed to be less distracting
 * Added a white outline around a black element on a purple background
+* Clickable images no longer turn unreadably white on hover
