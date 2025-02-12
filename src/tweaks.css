@@ -32,14 +32,7 @@
     box-shadow: inset 0 0 20px gray;
   }
 
-  .creator .content, .windowbg .content,
-  .description,
-  #main_admsection .windowbg2 .content,
-  #profileview,
-  .information,
-  .roundframe,
-  #recent .content,
-  #preview_section .content, .titlebg td {
+  .creator .content, .windowbg .content, .description, .windowbg2 .content, #profileview, .information, .roundframe, #recent .content, #preview_section .content, .titlebg td {
     background-color: white !important;
     color: black !important;
   }
