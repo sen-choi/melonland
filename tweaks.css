@@ -1,0 +1,121 @@
+/* ==UserStyle==
+@name           Sen's MelonLand Forum tweaks
+@namespace      github.com/openstyles/stylus
+@version        0.1
+@description    This style modifies the default MelonLand forum stylesheet to make the forum more accessible and readable. Mainly, it increases color contrast and implements a light mode.
+@author         Sen Choi
+==/UserStyle== */
+@-moz-document url-prefix("https://forum.melonland.net/") {
+  img {
+    image-rendering: auto;
+  }
+
+  #smflogo {
+    margin-top: 5px;
+    margin-left: 5px;
+    background-image: url('https://forum.melonland.net/Themes/pimp-my-classic/images/purple-flux-fade.jpg');
+  }
+
+  input, textarea, .sceditor-container iframe, .sceditor-container textarea, div.sceditor-toolbar {
+    background-color: #DDDDDD !important;
+    background-image: none !important;
+  }
+
+  .windowbg, .windowbg2, .windowbg3 {
+    background-color: #DFDFDF !important;
+    color: black !important;
+  }
+
+  #shoutbox .content {
+    background-color: white !important;
+    background-image: none !important;
+    box-shadow: inset 0 0 20px gray;
+  }
+
+  .creator .content,
+  .description,
+  #main_admsection .windowbg2 .content,
+  #profileview,
+  .information,
+  .roundframe,
+  #recent .content,
+  #preview_section .content, .titlebg td {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  .shoutbox_text_left span:first-child, .shoutbox_time {
+    color: black !important;
+  }
+
+  #board_infobox {
+    background-color: white !important;
+  }
+
+  .tborder {
+    border: solid black 2px;
+  }
+
+  #quote_tooltip .tooltiptext {
+    background-color: yellow;
+    & a {
+      color: black !important;
+    }
+  }
+
+  .bbc_standard_quote {
+    background-color: #D0D0D0 !important;
+    color: black !important;
+    padding: 1rem;
+  }
+
+  .nav, a:link {
+    color: #0000B8 !important;
+  }
+
+  a:visited {
+    color: #4F0070 !important;
+  }
+
+  body, .bbc_color, .inner_super_quote {
+    color: black !important;
+    font-family: "Times New Roman";
+  }
+
+  .titlebg a:link {
+    color: #0000B8 !important;
+    background-color: inherit;
+  }
+
+  .titlebg a:visited {
+    color: #4F0070 !important;
+    background-color: inherit;
+  }
+
+  #shade, #shade-2, #bunting {
+    display: none;
+  }
+
+  .codeheader {
+    color: #333;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .creator, #left_admsection {
+    background-color: white !important;
+  }
+
+  .catbg tr, .catbg a:link, .catbg a:visited, .catbg {
+    color: white !important;
+  }
+
+  .tborder > tbody > tr > td {
+    background-color: #DFDFDF !important;
+  }
+
+  .inner_super_quote::selection, .inner_super_quote *::selection {
+    background: #0078d7 !important;
+    color: white !important;
+  }
+}
