@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Sen's MelonLand Forum tweaks
 @namespace      github.com/openstyles/stylus
-@version        0.1
+@version        0.1.1
 @description    This style modifies the default MelonLand forum stylesheet to make the forum more accessible and readable. Mainly, it increases color contrast and implements a light mode.
 @author         Sen Choi
 ==/UserStyle== */
@@ -117,5 +117,9 @@
   .inner_super_quote::selection, .inner_super_quote *::selection {
     background: #0078d7 !important;
     color: white !important;
+  }
+
+  .bbc_quote_footer {
+    background-color: #D0D0D0 !important;
   }
 }
