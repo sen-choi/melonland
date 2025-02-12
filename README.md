@@ -1,4 +1,4 @@
-#Sen's MelonLand Forum tweaks
+# Sen's MelonLand Forum tweaks
 This userstyle modifies the default MelonLand forum stylesheet to improve accessibility and readability. It increases color contrast & implements a light mode.
 
 ## Features
