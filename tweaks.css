@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Sen's MelonLand Forum tweaks
 @namespace      github.com/openstyles/stylus
-@version        0.1.2
+@version        0.1.3 
 @description    This style modifies the default MelonLand forum stylesheet to make the forum more accessible and readable. Mainly, it increases color contrast and implements a light mode.
 @author         Sen Choi
 ==/UserStyle== */
@@ -43,6 +43,10 @@
     background-color: white !important;
     color: black !important;
   }
+  
+  .titlebg td img {
+    background-image: url('https://forum.melonland.net/Themes/pimp-my-classic/images/purple-flux-fade.jpg');
+  }
 
   .shoutbox_text_left span:first-child, .shoutbox_time {
     color: black !important;
@@ -81,7 +85,7 @@
     color: black !important;
     font-family: "Times New Roman";
   }
-
+  
   .titlebg a:link {
     color: #0000B8 !important;
     background-color: inherit;
@@ -109,6 +113,13 @@
   .catbg tr, .catbg a:link, .catbg a:visited, .catbg {
     color: white !important;
   }
+  
+  tr .catbg a img {
+    filter: drop-shadow(1px 1px 0 #fff)
+      drop-shadow(-1px 1px 0 #fff)
+      drop-shadow(-1px -1px 0 #fff)
+      drop-shadow(1px -1px 0 #fff);
+  } 
 
   .tborder > tbody > tr > td {
     background-color: #DFDFDF !important;
@@ -121,5 +132,9 @@
 
   .bbc_quote_footer {
     background-color: #D0D0D0 !important;
+  }
+  
+  .cat_bar h3 {
+    padding-left: 1rem;
   }
 }
