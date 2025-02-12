@@ -1,5 +1,5 @@
 # Sen's MelonLand Forum tweaks
-This userstyle modifies the default MelonLand forum stylesheet to improve accessibility and readability. It increases color contrast & implements a light mode.
+This userstyle modifies the default MelonLand forum stylesheet to improve accessibility and readability. It greatly increases color contrast and implements a light mode.
 
 ## Features
 While the css file is short enough that you could peruse it yourself, it's not very readable. Here is a summary of the changes made:
