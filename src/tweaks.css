@@ -136,7 +136,7 @@
     background-color: #D0D0D0 !important;
   }
   
-  .cat_bar h3 {
+  .cat_bar h3, .catbg {
     padding-left: 1rem;
   }
 }
