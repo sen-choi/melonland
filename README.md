@@ -1,6 +1,7 @@
 # About
 This userstyle modifies the default MelonLand forum stylesheet to improve accessibility and readability. It increases color contrast & implements a light mode. It is intended to be used on Firefox with the [Stylus extension](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/), and I have not tested it outside of Firefox. It is not intended to be used on mobile.
 
+## Features
 While the css file is short enough that you could peruse it yourself, it's not very readable. Here is a summary of the changes made:
 * Body backgrounds and form backgrounds are light gray
 * Most text is black and set to Times New Roman and custom fonts are disabled
